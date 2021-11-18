@@ -1,0 +1,75 @@
+##/* 
+    Add required header files and function prototypes here
+    upload this file to submitty
+*/
+
+#ifndef COMPUTE_H
+#define COMPUTE_H
+
+// Add function definations.
+complex(complex_t C1, complex_t C2);
+complex(complex_t C1, complex_t C2);
+complex(complex_t C1, complex_t C2);
+
+#endif
+
+/* 
+    Add required header files and function defintiions here
+    upload this file to submitty
+*/
+
+#include "complex.h"
+#include "compute.h"
+
+// Function: add
+// Purpose:  Add two complex numbers
+// Input:    Two complex numbers
+// Output:   The sum of the two complex numbers
+complex_t complex_sum(complex_t C1, complex_t C2)
+{
+    complex_t sum;
+    sum.real = C1.real + C2.real;
+    sum.img = C1.img + C2.img;
+    return sum;
+}
+
+// Function: subtract
+// Purpose:  Subtract two complex numbers
+// Input:    Two complex numbers
+// Output:   The difference of the two complex numbers
+complex_t complex_difference(complex_t C1, complex_t C2)
+{
+    complex_t diff;
+    diff.real = C1.real - C2.real;
+    diff.img = C1.img - C2.img;
+    return diff;
+}
+
+// Function: multiply
+// Purpose:  Multiply two complex numbers
+// Input:    Two complex numbers
+// Output:   The product of the two complex numbers
+complex_t complex_multiply(complex_t C1, complex_t C2)
+{
+    complex_t prod;
+    prod.real = (C1.real * C2.real) - (C1.img * C2.img);
+    prod.img = (C1.real * C2.img) + (C1.img * C2.real);
+    return prod;
+}
+
+// Function: divide
+// Purpose:  Divide two complex numbers
+// Input:    Two complex numbers
+// Output:   The quotient of the two complex numbers
+// return (0 + i0) if C2 is (0 + i0)
+complex_t complex_divide(complex_t C1, complex_t C2)
+{
+    complex_t quot;
+    if (C2.real == 0 && C2.img == 0)
+    {
+        quot.real = 0;
+        quot.img = 0;
+    }
+   
+    return quot;
+}

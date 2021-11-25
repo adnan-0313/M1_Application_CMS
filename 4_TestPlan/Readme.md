@@ -21,6 +21,8 @@
 
 | TestID | Description                                                                                 | Exp I/P       | Exp O/P                  | Actual O/P               | Type of Test      |
 | ------ | ------------------------------------------------------------------------------------------- | ------------- | ------------------------ | ------------------------ | ----------------- |
-
-| L_01| Search detail related to uid| uid | Student name         | Student Detail        | Requirement Based |
-| L_02   | Search Multipe Student                                        | student department | student details  | All student detail| Scenario Based    |
+| L_01   | Search by UID           | UID       | Student name                    | student detail                 | Requirement Based |
+| L_02   | Search by Department                          | Dept_name          | Student name                   | Student Detail                | Requirement Based |
+| L_03   | Calculating Bill with 18% GST                                                               | 121.5         | 143.37                   | 143.37                   | Requirement Based |
+| L_04   | Search Invoice, take customer name as input and return the invoice related to that customer | Customer Name | Customer Invoice         | Customer Invoice         | Requirement Based |
+| L_05   | Search Invoice (Multiple Invoices of same Customer)                                         | Customer Name | All Invoices of Customer | All Invoices of Customer | Scenario Based    |

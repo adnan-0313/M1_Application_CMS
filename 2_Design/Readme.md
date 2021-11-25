@@ -1,1 +1,6 @@
 # DESIGN
+
+## Structure Diagram
+### 1. Component Diagram
+
+![structural](https://user-images.githubusercontent.com/33773946/143394277-7c9d3957-27de-486e-a1b5-0378bf3381b3.png)

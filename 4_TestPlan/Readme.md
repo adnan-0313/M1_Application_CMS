@@ -11,7 +11,7 @@
 | H_01   | Adding name                                                                                                                                  | adnan   | adnan                        |                        | Requirement Based |
 | H_02   | deleting an student detail                                                                                                      | ----    | SUCCESS                       | SUCCESS                       | Requirement Based |
 | H_03   | When user enter option which is not listed                                                                                                   | ----    | Give message "Invalid option" | Give message "Invalid option" | Scenario Based    |
-| H_04   | When no saved invoices to show                                                                                                               | ----    | Show no invoice message       | Show no invoice message       | Boundary based    |
+| H_04   | When no student detail to show                                                                                                               | ----    | Show no invoice message       | Show no invoice message       | Boundary based    |
 | H_05   | Saving the student name into the file                                                                                      | ----    | SUCCESS                       | SUCCESS                       | Requirement Based |
 
 

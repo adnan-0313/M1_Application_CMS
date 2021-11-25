@@ -6,8 +6,8 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/cms_operation.c\
-src/cms_generation_func.c
+src/main.c\
+src/function.c
 
 # All test source files
 TEST_SRC = src/cms_operations.c\

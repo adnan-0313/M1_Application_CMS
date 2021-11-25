@@ -1,5 +1,5 @@
 
-## REQUIREMENTS
+# REQUIREMENTS
 
 
 # Introduction
@@ -76,6 +76,6 @@ How: It works in an simple logic what  we used for college management system and
 
 ## Low Level Requirement
 
-### ID     |     Description  |   Status
-    LLR1  |  User Input       | To check the option they choose 
-    LLR2  |  Operations       |   To create, search edit & delete student information
+### |ID     |     Description  |   Status|
+   | LLR1  |  User Input       | To check the option they choose |
+    |LLR2  |  Operations       |   To create, search edit & delete student information|

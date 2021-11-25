@@ -5,6 +5,11 @@
 
 ![structural](https://user-images.githubusercontent.com/33773946/143394277-7c9d3957-27de-486e-a1b5-0378bf3381b3.png)
 
+### 2. Class Diagram
+
+![Component1_diagram](https://user-images.githubusercontent.com/33773946/143413915-8c5aee1b-9b10-40d2-bba5-e4a91f8f7d92.png)
+
+
 
 ## Behaviour Diagram
 ### 1. Activity Diagram

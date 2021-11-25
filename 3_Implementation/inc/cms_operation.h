@@ -9,23 +9,23 @@
  * 
  * 
  */
-#ifndef __BILL_OPERATIONS_H__
-#define __BILL_OPERATIONS_H__
+#ifndef __CMS_OPERATIONS_H__
+#define __CMS_OPERATIONS_H__
 
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
 #include "time.h"
-#include "bill_entities.h"
+#include "cms_entities.h"
 
 
 
 /**
- * @brief Calculate bill amount for particular item
+ * @brief Show all the detail about Students
  * 
- * @param qty represents the quantity of prticular item
- * @param price represents the price of particular item
- * @return Bill amount of particular item
+ * @param Search detail
+ * @param Update Detail
+ * @returnDelete detail
  */
 void Create_Account();
 
@@ -68,4 +68,4 @@ void Searching_Information();
  * @param Recieve information
  */
 
-#endif  /* #define __BILL_OPERATIONS_H__ */
+#endif  /* #define __CMS_OPERATIONS_H__ */
